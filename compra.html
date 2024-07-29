@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/bootstrap/js/bootstrap.min.js">
+    <title>Meu carrinho</title>
+</head>
+<body>
+  <nav class="navber bg-dark p-3 fixed-top navbar-expand">
+    <div class="container">
+        <div class="collapse navbar-collapse">
+            <div class="spinner-border text-danger text-end "></div>
+            <a class="nav-link" href="./index.html">Home</a>
+            <a class="nav-link" href="">Sobre</a>
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+            <a class="nav-link" href="">Serviços</a>
+            <a class="nav-link" href="./cadastro.html">Cadastro</a>
+            <a class="nav-link" href="./compra.html">Compra</a>
+        </div>
+    </div>
+</nav>
+    <div class="header">
+        <p class="logo">Logo</p>
+        <div class="cart"><i class="fa fa-cart-plus" aria-hidden="true"> 0</i></div>
+    </div>
+    <div class="container">
+      <div id="root"></div>
+      <div class="sidebar">
+        <div class="head"><p>Meu Carrinho</p></div>
+        <div id="cartItem">Seu carrinho está visio</div>
+        <div class="foot">
+            <h3>Total</h3>
+            <h2 id="total">Kz 0.00</h2>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
